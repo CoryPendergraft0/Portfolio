@@ -1,5 +1,14 @@
 body{
     background-color: whitesmoke;
+    font-size: 24px;
+}
+
+h1{
+    font-size: 48px;
+}
+
+h2{
+    font-size: 40px
 }
 
 .container{
@@ -19,11 +28,22 @@ nav a {
     color: whitesmoke;
     text-decoration: none;
 }
+
 section{
     padding: 20px;
-    font-size: 20px;
+    font-size: 32px;
     line-height: 48px;
 }
+.about-detail{
+    display: flex;
+    align-items: flex-start;
+}
+
+.about-detail img{
+    margin-right: 16px;
+    margin-bottom: 16px;
+}
+
 #work{
     display: flex;
     flex-wrap: wrap;
@@ -40,4 +60,16 @@ article img{
 
 .featured{
     width: 100%;
+}
+footer{
+    padding: 20px;
+    background-color: crimson;
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+}
+footer a{
+    margin-left: 16px;
+    color: whitesmoke;
+    text-decoration: none;
 }

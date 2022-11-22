@@ -76,7 +76,7 @@ footer a{
     text-decoration: none;
 }
 
-@mediascreen and(max-width: 768px;){
+@media screen and (max-width: 768px) {
     header {
         display: flex;
         flex-direction: column;

@@ -43,6 +43,7 @@ section{
     margin-right: 16px;
     margin-bottom: 16px;
     width: 200px;
+    border-radius: 24px;
 }
 
 #work{
@@ -73,4 +74,16 @@ footer a{
     margin-left: 16px;
     color: whitesmoke;
     text-decoration: none;
+}
+
+@media screen and (max-width: 768px;){
+    header {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    .about-detail {
+        flex-direction: column;
+        align-items: center;
+    }
 }
